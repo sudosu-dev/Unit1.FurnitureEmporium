@@ -1,0 +1,76 @@
+/*
+product cards: white background, serif heading, sans paragraphs, black text
+add to cart: green background, white text, sans
+price: large size, green text
+strikeout price: smaller size, grey text
+body: background grey, heading serif, paragraph sans
+
+
+
+*/
+* {
+  margin: 0px;
+}
+body {
+  background-color: rgb(226, 224, 224);
+  margin-left: 16px;
+}
+
+header {
+  margin-left: 5px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.title-heading {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.product-card {
+  border-radius: 25px;
+  background-color: white;
+  margin: 10px;
+  margin-left: 0px;
+  width: 400px;
+}
+
+.product-heading {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 10px;
+}
+
+.product-description {
+  padding: 0px 10px 10px 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.product-button {
+  width: 95%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+.horizontal-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-current {
+  padding: 0px 0px 0px 10px;
+  font-size: xx-large;
+  color: green;
+}
+
+.price-old {
+  font-size: medium;
+  color: #525252;
+}
